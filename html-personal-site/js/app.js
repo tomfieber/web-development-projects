@@ -1,4 +1,4 @@
-
+const inputYearButton = document.getElementById("year-button");
 
 const calculateLeapYear = (year) => {
   if (year % 4 === 0) {
@@ -21,7 +21,7 @@ const leapYearHandler = () => {
   if (calculateLeapYear(yearNumber)) {
     elemDiv.innerHTML = `${year} <em>is</em> a leap year!`;
   } else {
-    elemDiv.innerHTML = `Sorry, ${year} <em>is not</em> a leap year.`;
+    elemDiv.innerHTML = `${year} <em>is not</em> a leap year.`;
   }
 };
 
