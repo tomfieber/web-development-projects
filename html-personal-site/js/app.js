@@ -19,9 +19,9 @@ const leapYearHandler = () => {
   const yearNumber = parseInt(year);
   const elemDiv = document.getElementById("leap-year-answer");
   if (calculateLeapYear(yearNumber)) {
-    elemDiv.innerHTML = `${year} <em>is</em> a leap year!`;
+    elemDiv.innerHTML = `${year} <em class="is-leap">is</em> a leap year!`;
   } else {
-    elemDiv.innerHTML = `${year} <em>is not</em> a leap year.`;
+    elemDiv.innerHTML = `${year} <em class="is-not-leap">is not</em> a leap year.`;
   }
 };
 

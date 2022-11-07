@@ -4,5 +4,17 @@ body {
 }
 
 button:hover {
-  background-color: lightgreen;
+  background-color: lightblue;
+}
+
+.is-leap {
+  color: green;
+}
+
+.is-not-leap {
+  color: red;
+}
+
+.description {
+  color: orangered;
 }
